@@ -18,7 +18,7 @@
 branch="master"
 install_dir="/usr/local"
 compiler_flags="-O3 -pipe -march=native -mtune=native -flto"
-debian_dependencies="build-essential cmake git qttools5-dev qtbase5-private-dev libprocps-dev libopencv-dev ccache svn"
+debian_dependencies="build-essential cmake git qttools5-dev qtbase5-private-dev libprocps-dev libopencv-dev ccache subversion"
 addons_dir="$HOME/Downloads/FlightGear_Addons"
 headtracker_dir="$addons_dir/Headtracker"
 headtracker_url="http://svn.code.sf.net/p/flightgear/fgaddon/trunk/Addons/Headtracker"
